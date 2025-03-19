@@ -2,10 +2,10 @@
 
 # Bluebook Bulldozer Price Regression 📉🚜
 
-## 📌 Project Overview
+## Project Overview
 This project is an **end-to-end machine learning model** for predicting the **sale price of bulldozers** using structured data. It is based on the **Bluebook for Bulldozers Kaggle dataset**, where we build and evaluate regression models to estimate bulldozer prices based on various features such as machine usage, age, and equipment type.
 
-## 🚀 Key Features
+## Key Features
 - **Data Preprocessing & Feature Engineering**
   - Handling missing values and categorical data
   - Extracting useful features from timestamps
@@ -20,15 +20,15 @@ This project is an **end-to-end machine learning model** for predicting the **sa
   - Saving and loading models with `joblib`
   - Making price predictions for unseen bulldozers
 
-## 📂 Dataset
+##  Dataset
 The dataset comes from Kaggle’s **Bluebook for Bulldozers** competition.
 - **Training set:** Bulldozer sales data from **1989–2011**
 - **Validation set:** Sales data from **2012**
 - **Test set:** Bulldozers sold in **2013** (price to be predicted)
 
-📌 [Dataset Link](https://www.kaggle.com/competitions/bluebook-for-bulldozers/data)
+[Dataset Link](https://www.kaggle.com/competitions/bluebook-for-bulldozers/data)
 
-## 🛠️ Tech Stack
+## Tech Stack
 - **Programming Language:** Python
 - **Libraries & Frameworks:**
   - Pandas, NumPy (Data Processing)
@@ -37,7 +37,7 @@ The dataset comes from Kaggle’s **Bluebook for Bulldozers** competition.
   - XGBoost (Boosting Algorithm)
   - Joblib (Model Saving & Loading)
 
-## 📜 How to Run
+## How to Run
 1. Clone the repository:
    ```bash
       git clone https://github.com/ShamScripts/Predicting-the-Sale-Price-of-Bulldozers-using-Machine-Learning.git
@@ -52,16 +52,8 @@ The dataset comes from Kaggle’s **Bluebook for Bulldozers** competition.
        jupyter notebook end-to-end-bluebook-bulldozer-price-regression.ipynb
    ```
 
-## 📊 Results & Insights
+## Results & Insights
 - **Feature Importance Analysis** helped identify key predictors for price estimation.
 - **XGBoost** provided the best performance with **lowest RMSLE**.
 - **Tuned hyperparameters** improved prediction accuracy significantly.
-
-## 📬 Connect with Me
-If you're interested in ML, data science, or want to collaborate, feel free to reach out!
-- **GitHub:** [ShamScripts](https://github.com/ShamScripts)
-- **LinkedIn:** [Shambhavi Jha](https://www.linkedin.com/in/shambhavi-jha)
-- **Email:** f20230009@dubai.bits-pilani.ac.in
-
-🔍 *Let's make data-driven decisions smarter!* 🚀
 
